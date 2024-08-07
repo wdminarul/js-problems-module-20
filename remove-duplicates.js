@@ -14,3 +14,8 @@ function removeDuplicate(array){
 
 const result = removeDuplicate(numbers);
 console.log(result)
+
+
+
+
+
