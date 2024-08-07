@@ -25,7 +25,7 @@ function countOccurrences(numbers, target) {
     let count = 0;
 
     // Loop through each number in the array
-    for (let i = 0; i < numbers.length; i++) {
+    for (const i of numbers) {
         // If the current number matches the target, increment the count
         if (numbers[i] === target) {
             count++;
@@ -39,7 +39,7 @@ function countOccurrences(numbers, target) {
 const numbers = [5, 6, 11, 12, 98, 5,];
 const target = 5;
 const result = countOccurrences(numbers, target);
-// console.log('The number of search value', result);  // Output: 2
+console.log('The number of search value', result);  // Output: 2
 
 // Write a function to count the number of vowels in a string.
 
@@ -64,7 +64,7 @@ function countVowels(str) {
 // Example usage:
 const inputString = 'This is a demo content'
 const result2 = countVowels(inputString);
-console.log(result2);  // Output: 3
+// console.log(result2);  // Output: 3
 
 
 function getRandomNumber(min, max) {
@@ -74,6 +74,6 @@ function getRandomNumber(min, max) {
 
 // Example usage:
 const randomNumber = getRandomNumber(10, 20);
-console.log(randomNumber);  // Output: a random integer between 10 and 20 (inclusive)
+// console.log(randomNumber);  // Output: a random integer between 10 and 20 (inclusive)
 
 
